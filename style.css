@@ -1,0 +1,586 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/background1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+.info {
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: fit-content;
+    width: 100vw;
+    display: flex;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 20px;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.menu-toggle {
+    display: none;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 6px;
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+}
+
+.header-pic {
+    margin-right: 400px;
+    margin-left: 50px;
+}
+
+.couple {
+    width: 280px;
+    height: auto;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.Tlinks {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.Tlinks li {
+    margin: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(212, 86, 69);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.infotext {
+    color: white;
+}
+
+.bt1 {
+    background-color: rgb(212, 86, 69);
+    border: none;
+}
+
+.bt1:hover {
+    background-color: rgb(255, 99, 71);
+}
+
+.bt2 {
+    color: white;
+    border-color: white;
+}
+
+.al {
+    margin-top: 50px;
+}
+
+.header-text {
+    color: white;
+    text-align: center;
+}
+
+.why {
+    margin-top: 50px;
+}
+
+.header-text-text {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.container {
+    background-color: none;
+}
+
+.card-body {
+    /* Adjust the height of the card body to ensure all cards have the same height */
+    min-height: 230px;
+}
+
+.cola {
+    margin: 50px 0px;
+    display: flex;
+    gap: 50px;
+    padding: 0px 150px;
+}
+
+.back {
+    border-color: #b1b1b1;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-img {
+    /* Ensure all card images have the same height for a uniform look */
+    max-height: 400px;
+}
+
+.card {
+    background-color: rgb(51, 47, 47);
+    color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.slide {
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 100px;
+    align-items: center;
+}
+
+.d-block {
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.carousel-item img {
+    width: auto;
+    margin-left: 420px;
+}
+
+.pricing {
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+.card {
+    min-height: 350px;
+}
+
+.mid-card {
+    /* everything with mid is modifying the middle pricing card in home page */
+    background-color: rgb(212, 86, 69);
+    color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.mid {
+    color: white;
+    background-color: rgb(51, 47, 47);
+}
+
+.mid:hover {
+    background-color: rgb(15, 9, 8);
+    color: white;
+}
+
+.btn-primary {
+    background-color: rgb(255, 97, 76);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.btn-primary:hover {
+    background-color: rgb(235, 65, 35);
+}
+
+.ready {
+    background-color: rgb(212, 86, 69);
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.ready-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.bt1:hover {
+    background-color: rgb(255, 38, 0);
+    color: white;
+}
+
+.bt2:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+footer {
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+.footer-text,
+h5 {
+    color: white;
+}
+
+.lightmode {
+    border-radius: 25%;
+    border: none;
+}
+
+@media (max-width: 6500px) and (max-width: 1024px) {
+    body {
+        padding: 0px;
+        font-size: 0.8rem;
+        margin: 0px;
+    }
+
+    .info {
+        height: 200px;
+    }
+
+    .header-image {
+        margin-top: 14px;
+        max-width: 40vw;
+        height: auto;
+    }
+
+    .header-pic {
+        margin-right: 1px;
+        margin-left: 5px;
+    }
+
+    .start {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .infotext,
+    .bt1,
+    .bt2 {
+        font-size: 0.8rem;
+    }
+
+    .bt1,
+    .bt2 {
+        width: 200px;
+    }
+
+    .buttons {
+        padding-left: 0px;
+    }
+
+    .Tlinks {
+        display: none;
+        position: absolute;
+        top: 60px;
+        right: 5px;
+        flex-direction: column;
+        background-color: #000;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 8px;
+        width: min(95vw, 160px);
+        padding: 5px;
+        z-index: 50;
+    }
+
+    .Tlinks.open {
+        display: flex;
+    }
+
+    .Tlinks li {
+        margin-bottom: 10px;
+    }
+
+    .menu-toggle {
+        display: inline-flex;
+        justify-content: center;
+        position: absolute;
+        top: 12px;
+        right: 12px;
+    }
+
+    .slide {
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+
+    .carousel-item img {
+        margin-left: 90px;
+        max-width: 200px
+    }
+
+    .pricing {
+        padding-right: 0px;
+        padding-left: 0px;
+        margin: 40px;
+    }
+
+    .card {
+        max-height: 1000px;
+        margin-right: auto 30px;
+    }
+
+    .header-text-text {
+        font-size: 1.5rem;
+    }
+
+    .ready {
+        padding: 20px 30px;
+        width: 100%;
+    }
+
+    .ready-buttons {
+        gap: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .ready-buttons .bt1,
+    .ready-buttons .bt2 {
+        width: 200px;
+    }
+
+    .header-text {
+        margin-top: 40px;
+    }
+
+    .al {
+        margin: 40px 30px;
+    }
+
+    footer {
+        padding-left: 20px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .cola {
+        display: block;
+        padding: 0px 20px;
+        margin-top: 20px;
+    }
+}
+
+/* Tablet and iPad styles */
+@media (min-width: 600px) and (max-width: 1024px) {
+    body {
+        font-size: 0.9rem;
+    }
+
+    .header {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .menu-toggle {
+        display: inline-flex;
+        position: absolute;
+        top: 12px;
+        right: 12px;
+        justify-content: center;
+    }
+
+    .Tlinks {
+        display: none;
+        position: absolute;
+        top: 60px;
+        right: 5px;
+        flex-direction: column;
+        background-color: #000;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 8px;
+        width: min(95vw, 220px);
+        padding: 5px;
+        z-index: 50;
+    }
+
+    .Tlinks.open {
+        display: flex;
+    }
+
+    .info {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .header-pic {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+    }
+
+    .header-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        max-height: 380px;
+    }
+
+    .start {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/*about page*/
+.about {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+
+.background {
+    margin: 80px 50px;
+    border-color: #b1b1b1;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.story-header {
+    margin-top: 20px;
+}
+
+.header-text {
+    margin-top: 0px;
+}
+
+.story {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    word-spacing: 5px;
+    padding: 0px 150px;
+}
+
+.coaches {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 5px;
+}
+
+.coach-card {
+    background-color: rgb(63, 63, 63);
+    color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    max-height: 430px;
+    text-align: center;
+    transition: ease-in-out 0.3s;
+}
+
+.coach-card:hover {
+    color: white;
+    transform: scale(1.05);
+}
+
+.coach-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.train-card {
+    background-color: rgb(63, 63, 63);
+    color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    max-height: fit-content;
+    text-align: center;
+}
+
+.train-img {
+    background-color: rgb(63, 63, 63);
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 600px) and (max-width: 1024px) {
+    .about-intro {
+        max-height: 10px;
+    }
+
+    .couple {
+        width: 220px;
+        height: auto;
+    }
+
+    .about-header {
+        font-size: 1.1rem;
+        font-weight: bolder;
+    }
+
+    .about {
+        font-size: 1rem;
+        padding: 0px 20px;
+    }
+
+    .story {
+        font-size: 1rem;
+        padding: 0px 30px;
+    }
+
+    .background {
+        margin: 30px 30px;
+    }
+
+    .coaches {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .coach-card {
+        padding: 5px 10px;
+        max-height: fit-content;
+    }
+}
