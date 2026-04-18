@@ -436,30 +436,30 @@ h5 {
     }
 
     .info {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
-        gap: 16px;
+        gap: 20px;
+    }
+
+    .infotext {
+        font-size: 1.5rem;
     }
 
     .header-pic {
-        width: 100%;
-        max-width: 600px;
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        align-items: stretch;
+        max-width: 300px;
+        margin: 0;
+        margin-left: 50px;
     }
 
     .header-image {
         width: 100%;
-        height: 100%;
-        object-fit: cover;
-        max-height: 380px;
+        max-height: 180px;
     }
 
     .start {
-        width: 100%;
+        flex: 1;
         text-align: center;
+        margin-left: 100px;
     }
 }
 
