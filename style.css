@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('images/background1.jpg');
+    background-image: url('images/backgroung1.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
@@ -13,7 +13,7 @@ p {
 }
 
 .info {
-    background-image: url('images/background.jpg');
+    background-image: url('images/background2.png');
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
@@ -262,7 +262,7 @@ h5 {
     border: none;
 }
 
-@media (max-width: 6500px) and (max-width: 1024px) {
+@media (max-width: 600px) {
     body {
         padding: 0px;
         font-size: 0.8rem;
@@ -352,6 +352,10 @@ h5 {
         margin: 40px;
     }
 
+    .couple {
+        max-height: 200px;
+    }
+
     .card {
         max-height: 1000px;
         margin-right: auto 30px;
@@ -399,69 +403,7 @@ h5 {
 }
 
 /* Tablet and iPad styles */
-@media (min-width: 600px) and (max-width: 1024px) {
-    body {
-        font-size: 0.9rem;
-    }
 
-    .header {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .menu-toggle {
-        display: inline-flex;
-        position: absolute;
-        top: 12px;
-        right: 12px;
-        justify-content: center;
-    }
-
-    .Tlinks {
-        display: none;
-        position: absolute;
-        top: 60px;
-        right: 5px;
-        flex-direction: column;
-        background-color: #000;
-        border: 1px solid rgba(255, 255, 255, 0.2);
-        border-radius: 8px;
-        width: min(95vw, 220px);
-        padding: 5px;
-        z-index: 50;
-    }
-
-    .Tlinks.open {
-        display: flex;
-    }
-
-    .info {
-        flex-direction: row;
-        align-items: center;
-        gap: 20px;
-    }
-
-    .infotext {
-        font-size: 1.5rem;
-    }
-
-    .header-pic {
-        max-width: 300px;
-        margin: 0;
-        margin-left: 50px;
-    }
-
-    .header-image {
-        width: 100%;
-        max-height: 180px;
-    }
-
-    .start {
-        flex: 1;
-        text-align: center;
-        margin-left: 100px;
-    }
-}
 
 /*about page*/
 .about {
@@ -512,7 +454,7 @@ h5 {
     border-radius: 10px;
     padding: 20px;
     width: 300px;
-    max-height: 430px;
+    min-height: 430px;
     text-align: center;
     transition: ease-in-out 0.3s;
 }
@@ -582,5 +524,113 @@ h5 {
     .coach-card {
         padding: 5px 10px;
         max-height: fit-content;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+    body {
+        font-size: 0.9rem;
+    }
+
+    .header {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .background {
+        margin: 30px 30px;
+    }
+
+    .coaches {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .coach-card {
+        padding: 5px 10px;
+        max-height: fit-content;
+    }
+
+    .menu-toggle {
+        display: inline-flex;
+        position: absolute;
+        top: 12px;
+        right: 12px;
+        justify-content: center;
+    }
+
+    .Tlinks {
+        display: none;
+        position: absolute;
+        top: 60px;
+        right: 5px;
+        flex-direction: column;
+        background-color: #000;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 8px;
+        width: min(95vw, 220px);
+        padding: 5px;
+        z-index: 50;
+    }
+
+    .Tlinks.open {
+        display: flex;
+    }
+
+    .info {
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .infotext {
+        font-size: 1.5rem;
+    }
+
+    .header-pic {
+        max-width: 300px;
+        margin: 0;
+        margin-left: 50px;
+    }
+
+    .header-image {
+        width: 100%;
+        max-height: 180px;
+    }
+
+    .start {
+        flex: 1;
+        text-align: center;
+        margin-left: 100px;
+    }
+
+    .right {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col {
+        min-width: 400px;
+        margin-bottom: 20px;
+    }
+
+    .slide {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .carousel-item img {
+        margin-left: 90px;
+        max-width: 200px
+    }
+
+    .pricing {
+        padding-right: 0px;
+        padding-left: 0px;
+        margin: 40px;
+    }
+
+    .act {
+        margin-left: 150px;
     }
 }
