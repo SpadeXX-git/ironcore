@@ -10,6 +10,7 @@ body {
 
 p {
     font-size: 1.3rem;
+    color: white;
 }
 
 .info {
@@ -262,11 +263,28 @@ h5 {
     border: none;
 }
 
+.class_intro {
+    display: flex;
+    gap: 20px;
+    padding: 0px 50px;
+    align-items: center;
+}
+
+.class_pic {
+    max-width: 500px;
+    height: auto;
+    border-radius: 20px;
+}
+
 @media (max-width: 600px) {
     body {
         padding: 0px;
         font-size: 0.8rem;
         margin: 0px;
+    }
+
+    p {
+        font-size: 0.9rem;
     }
 
     .info {
@@ -399,6 +417,15 @@ h5 {
         display: block;
         padding: 0px 20px;
         margin-top: 20px;
+    }
+
+    .class_intro {
+        padding: 0px 10px;
+        flex-direction: column;
+    }
+
+    .class_pic {
+        max-width: 300px;
     }
 }
 
@@ -632,5 +659,14 @@ h5 {
 
     .act {
         margin-left: 150px;
+    }
+
+    .class_intro {
+        padding: 0px 10px;
+        flex-direction: column;
+    }
+
+    .class_pic {
+        max-width: 500px;
     }
 }
