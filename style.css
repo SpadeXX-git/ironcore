@@ -669,4 +669,9 @@ h5 {
     .class_pic {
         max-width: 500px;
     }
+
+    .cola {
+        margin: 30px 0px;
+        padding: 0px 20px;
+    }
 }
